@@ -21,6 +21,11 @@ h2 {
     border-radius: 3px;
 }
 
+::placeholder {
+    color: #000000;
+    font-size: 16px;
+}
+
 .btn {
     padding: 10px 50px;
     background-color: #000000;
