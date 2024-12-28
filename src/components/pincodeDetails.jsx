@@ -53,7 +53,7 @@ const PincodeDetails = () => {
                         value={pincode}
                         onChange={(e) => setPincode(e.target.value)}
                     />
-                    <button onClick={handleLookup}>Lookup</button>
+                    <button onClick={handleLookup} className='btn'>Lookup</button>
                 </div>
             )}
             {loading && <div className="loader"></div>}
